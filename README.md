@@ -6,6 +6,10 @@ struct node* link;
 } NODE;
 
 NODE* createNode (void* nodePtr);
+
+//This is head node 
+
+
 #include <malloc.h>
 #include <stdio.h>
 
@@ -21,6 +25,10 @@ nodePtr->link = NULL
  ;
 return nodePtr;
 }
+//This is node.c
+
+
+
 #include <stdio.h>
 #include <malloc.h>
 
@@ -51,3 +59,5 @@ printf("Data from second node = %d\n\n",*((int*)(node[1]->dataPtr)));
 	
 return 0;
 } 
+//This is main programming
+
